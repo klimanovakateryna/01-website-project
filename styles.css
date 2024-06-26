@@ -28,3 +28,34 @@ ul {
     display: flex;
     gap: 3em;
 }
+
+.main-text{
+    display:flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0 0 0 155px;
+}
+
+img {
+    width: 500px;
+    height: 220px;
+    display: flex;
+    align-self: end;
+    margin: 0 155px 0 0;
+}
+
+#small-paragraph{
+    font-size: 18px;
+    color:  #e5e7eb;
+}
+
+#first-button{
+    background-color:#3882F6;
+    color:  #e5e7eb;
+}
