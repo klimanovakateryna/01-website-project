@@ -23,7 +23,7 @@ body {
 
 ul {
     list-style-type: none;
-    color: #e5e7eb;
+    color: #bcbec2;
     font-size: 18px;
     display: flex;
     gap: 1em;
@@ -32,7 +32,7 @@ ul {
 #small-paragraph {
     font-size: 18px;
     font-weight: 310;
-    color: #e5e7eb;
+    color:  #bcbec2;
     margin: 0 10px -10px 0;
 }
 
@@ -119,14 +119,59 @@ img {
     font-weight: 300;
     margin: 0 380px;
     color: #1F2937;
+    color:#383d42;
 }
 
 #quote-02 {
     display: flex;
-    color: #171b20;
-    font-weight: 900;
+    color: #272c33;
+    font-weight: 700;
     font-size: 22px;
     margin: 0 340px;
     padding: 0 65px;
     justify-content: end;
+}
+
+.sign-up-container {
+    padding: 60px 0 60px 0;
+    background-color: #ffffff;
+}
+
+.blue-container {
+    display: flex;
+    margin: 0 360px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#upper-text {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff
+}
+
+#lower-text {
+    color:#e5e7eb
+}
+
+#lower-button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border-style:solid;
+    border-color: #ffffff;
+    background-color:#3882F6;
+    font-size: 16px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.footer {
+    display: flex;
+    padding: 40px 0;
+    justify-content: center;
+    color: #bcbec2;
 }
